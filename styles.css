@@ -1,0 +1,128 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.navbar-brand img {
+    max-height: 40px;
+}
+
+/* Featured products section */
+#featured-products .card {
+    margin-bottom: 20px;
+}
+
+/* Product list section */
+#product-list .card {
+    margin-bottom: 20px;
+}
+
+/* Product image */
+.product-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Promotion section */
+#promotions {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 10px;
+    }
+}
+
+/* Wishlist and cart icons */
+.wishlist-icon, .cart-icon {
+    cursor: pointer;
+}
+
+/* Product rating stars */
+.rating {
+    color: #ffc107;
+}
+
+/* Call to action button */
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Sort and filter sidebar */
+.filter-option {
+    margin-bottom: 10px;
+}
+
+/* Product details */
+.product-details {
+    margin-top: 20px;
+}
+
+/* Store finder map */
+#store-map {
+    height: 400px;
+    width: 100%;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.social-links i {
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#cartTotal {
+    font-weight: bold;
+    text-align: right;
+}
